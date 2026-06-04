@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios26.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name gpi_dltdoa
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
+import Combine
+import Foundation
+import NearbyInteraction
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+public enum CalibrationState {
+  case idle
+  case collecting(minCount: Swift.Int, perAnchor: [Swift.Int : Swift.Int])
+  case completed([Swift.Int : Swift.Double])
+}
+@_Concurrency.MainActor public class DLTDoAPositioner : Foundation.ObservableObject {
+  @Combine.Published<simd.simd_double3?> @_projectedValueProperty($estimatedPosition) @_Concurrency.MainActor public var estimatedPosition: simd.simd_double3? {
+    get
+  }
+  @_Concurrency.MainActor public var $estimatedPosition: Combine.Published<simd.simd_double3?>.Publisher {
+    get
+  }
+  @Combine.Published<gpi_dltdoa.CalibrationState> @_projectedValueProperty($calibrationState) @_Concurrency.MainActor public var calibrationState: gpi_dltdoa.CalibrationState {
+    get
+  }
+  @_Concurrency.MainActor public var $calibrationState: Combine.Published<gpi_dltdoa.CalibrationState>.Publisher {
+    get
+  }
+  @_Concurrency.MainActor public static var sdkVersion: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor public var minRssi: Swift.Double
+  @_Concurrency.MainActor public var anchorOffsets: [Swift.Int : Swift.Double]
+  @_Concurrency.MainActor public var anchorCoordinatesOverride: [Swift.Int : simd.simd_double3]
+  @_Concurrency.MainActor public init(minRssi: Swift.Double = -90.0)
+  @_Concurrency.MainActor public func startCalibration(at position: simd.simd_double3, targetCount: Swift.Int = 100)
+  @_Concurrency.MainActor public func stopCalibration()
+  @_Concurrency.MainActor public func update(measurements: [NearbyInteraction.NIDLTDOAMeasurement])
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension gpi_dltdoa.DLTDoAPositioner : Swift.Sendable {}

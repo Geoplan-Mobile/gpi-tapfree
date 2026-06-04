@@ -1,0 +1,95 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios26.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name gpi_tapfree
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+import Combine
+import CoreBluetooth
+import CoreGraphics
+import CoreLocation
+import Foundation
+import NearbyInteraction
+import Network
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+import simd
+public protocol BlePlatformListener {
+  func toBoard(zoneCode: Swift.String, aisleId: Swift.String, result: Swift.Bool)
+  func toExit(zoneCode: Swift.String, aisleId: Swift.String, result: Swift.Bool)
+  func onRssi(mac: Swift.String, rssi: Swift.Int)
+}
+public enum InOutEvent : Swift.UInt8 {
+  case OUT
+  case IN
+  public static func byCode(_ code: Swift.UInt8) -> gpi_tapfree.InOutEvent?
+  public func code() -> Swift.UInt8
+  public init?(rawValue: Swift.UInt8)
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+public protocol PlatformListener {
+  func onInitialized(isSuccess: Swift.Bool)
+  func onUninitialized()
+  func onStarted()
+  func onStopped()
+  func onStartedTracking(_ zoneCode: Swift.String)
+  func onStoppedTracking(_ zoneCode: Swift.String)
+  func onConnectedPayload(_ zonCode: Swift.String, _ aisleId: Swift.String)
+  func onDisconnectedPayload(_ zoneCode: Swift.String, _ aisleId: Swift.String)
+  func onLocation(_ zoneCode: Swift.String, _ areaName: Swift.String, _ inOut: gpi_tapfree.InOutEvent, _ eventTime: Swift.Int64)
+  func onReceivedPayload(_ payload: Foundation.Data)
+  func onError(_ code: Swift.Int, _ msg: Swift.String)
+}
+public enum TapfreeError : Swift.Error {
+  case IllegalStateException(_: Swift.String)
+  case IllegalArgumentException(_: Swift.String)
+}
+extension gpi_tapfree.TapfreeError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class TapfreePlatform : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  public static let SUCCESS: Swift.Int
+  public static let ALREADY_STOP: Swift.Int
+  public static func getInstance() -> gpi_tapfree.TapfreePlatform
+  final public func initialize(listener: (any gpi_tapfree.PlatformListener)?) throws
+  final public func initialize(listener: (any gpi_tapfree.PlatformListener)?, bleListener: (any gpi_tapfree.BlePlatformListener)?) throws
+  final public func initialize(write: Swift.Bool, listener: (any gpi_tapfree.PlatformListener)?, bleListener: (any gpi_tapfree.BlePlatformListener)?) throws
+  final public func uninitialize() throws
+  final public func isInitalized() -> Swift.Bool
+  final public func start(mobileId: Swift.String, timerPeriod: Swift.Int) throws
+  final public func stop() -> Swift.Int
+  final public func connectPayload(zoneCode: Swift.String, aisleId: Swift.String) throws
+  final public func disconnectPayload(zoneCode: Swift.String, aisleId: Swift.String) throws
+  final public func sendPayload(payload: [Swift.UInt8]?) throws
+  final public func forceOut()
+  final public func setRssiOffset(offset: Swift.Int)
+  final public func getRssiOffset() -> Swift.Int
+  final public func getLibraryVersion() -> Swift.String
+  @objc deinit
+}
+extension gpi_tapfree.TapfreePlatform : CoreBluetooth.CBCentralManagerDelegate {
+  @objc final public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+}
+extension gpi_tapfree.TapfreePlatform : CoreLocation.CLLocationManagerDelegate {
+  @objc final public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+}
+@_spi(Debug) public struct AisleBleRangeInfo {
+  @_spi(Debug) public let mac: Swift.String
+  @_spi(Debug) public let freeMin: Swift.Int
+  @_spi(Debug) public let freeMax: Swift.Int
+  @_spi(Debug) public let paidMin: Swift.Int
+  @_spi(Debug) public let paidMax: Swift.Int
+}
+@_spi(Debug) extension gpi_tapfree.TapfreePlatform {
+  @_spi(Debug) final public func getAllAisleBleRanges() -> [gpi_tapfree.AisleBleRangeInfo]
+}
+extension gpi_tapfree.InOutEvent : Swift.Equatable {}
+extension gpi_tapfree.InOutEvent : Swift.Hashable {}
+extension gpi_tapfree.InOutEvent : Swift.RawRepresentable {}
