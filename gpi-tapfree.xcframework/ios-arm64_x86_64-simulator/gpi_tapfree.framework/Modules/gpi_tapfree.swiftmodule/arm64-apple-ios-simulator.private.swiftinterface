@@ -13,7 +13,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import os.log
 import os
 import simd
 public protocol BlePlatformListener {
