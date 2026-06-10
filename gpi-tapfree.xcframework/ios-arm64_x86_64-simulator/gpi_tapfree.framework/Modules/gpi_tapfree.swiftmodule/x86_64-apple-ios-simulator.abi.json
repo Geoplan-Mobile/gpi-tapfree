@@ -2318,7 +2318,7 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(mobileId:timerPeriod:)",
+            "printedName": "start(mobileId:timerPeriod:ddnsDomain:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2336,11 +2336,18 @@
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11gpi_tapfree15TapfreePlatformC5start8mobileId11timerPeriodySS_SitKF",
-            "mangledName": "$s11gpi_tapfree15TapfreePlatformC5start8mobileId11timerPeriodySS_SitKF",
+            "usr": "s:11gpi_tapfree15TapfreePlatformC5start8mobileId11timerPeriod10ddnsDomainySS_SiSStKF",
+            "mangledName": "$s11gpi_tapfree15TapfreePlatformC5start8mobileId11timerPeriod10ddnsDomainySS_SiSStKF",
             "moduleName": "gpi_tapfree",
             "declAttributes": [
               "Final",
@@ -3068,1523 +3075,1530 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Contents\/AisleBleRssi.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Contents\/AisleBleRssi.swift",
       "kind": "Dictionary",
       "offset": 175,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Contents\/PayloadToGate.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Contents\/PayloadToGate.swift",
       "kind": "IntegerLiteral",
       "offset": 173,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Contents\/PayloadToMobile.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Contents\/PayloadToMobile.swift",
       "kind": "IntegerLiteral",
       "offset": 183,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Data\/InOut.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Data\/InOut.swift",
       "kind": "IntegerLiteral",
       "offset": 114,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Data\/InOut.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/Data\/InOut.swift",
       "kind": "IntegerLiteral",
       "offset": 132,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficConverter.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficConverter.swift",
       "kind": "IntegerLiteral",
       "offset": 164,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficConverter.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficConverter.swift",
       "kind": "IntegerLiteral",
       "offset": 197,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 182,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 214,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 280,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 313,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 379,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 412,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Common\/StrafficMsgCode.swift",
       "kind": "IntegerLiteral",
       "offset": 478,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
       "kind": "StringLiteral",
       "offset": 528,
       "length": 13,
       "value": "\"gpi-tapfree\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
       "kind": "Dictionary",
       "offset": 584,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
       "kind": "StringLiteral",
       "offset": 1609,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
       "kind": "StringLiteral",
       "offset": 1639,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 13,
       "value": "\"gpi-tapfree\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 12,
       "value": "\"FileLogger\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 822,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
       "kind": "StringLiteral",
       "offset": 848,
       "length": 13,
       "value": "\"gpi-tapfree\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 914,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 33,
       "value": "\"kr.co.geoplan.mobile.mioc.prefs\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 9,
       "value": "\".ioc.ip\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 331,
       "length": 11,
       "value": "\".ioc.port\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 13,
       "value": "\".project.id\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 451,
       "length": 11,
       "value": "\".space.id\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 507,
       "length": 6,
       "value": "\".key\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 560,
       "length": 11,
       "value": "\".udp_port\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 21,
       "value": "\".first.position.use\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 21,
       "value": "\".first.position.cnt\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 31,
       "value": "\"https:\/\/192.168.0.13:7081\/ioc\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 9,
       "value": "\"geoplan\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 953,
       "length": 7,
       "value": "\"4.0.0\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 9,
       "value": "\"IOC_KEY\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 1120,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 945,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 1013,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "FloatLiteral",
       "offset": 1087,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 1159,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "FloatLiteral",
       "offset": 1240,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "BooleanLiteral",
       "offset": 1530,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "Array",
       "offset": 1894,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "Dictionary",
       "offset": 1989,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "Dictionary",
       "offset": 2113,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "Array",
       "offset": 2163,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
       "kind": "Array",
       "offset": 2208,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 461,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 524,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
       "kind": "FloatLiteral",
       "offset": 592,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 234,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "FloatLiteral",
       "offset": 294,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "FloatLiteral",
       "offset": 318,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "FloatLiteral",
       "offset": 342,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "FloatLiteral",
       "offset": 370,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "BooleanLiteral",
       "offset": 400,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 564,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 588,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
       "kind": "FloatLiteral",
       "offset": 610,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 452,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 512,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
       "kind": "FloatLiteral",
       "offset": 577,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
       "kind": "FloatLiteral",
       "offset": 659,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
       "kind": "FloatLiteral",
       "offset": 692,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 6,
       "value": "\"READ\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 413,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 488,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
       "kind": "FloatLiteral",
       "offset": 568,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
       "kind": "FloatLiteral",
       "offset": 652,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
       "kind": "BooleanLiteral",
       "offset": 783,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
       "kind": "StringLiteral",
       "offset": 1209,
       "length": 6,
       "value": "\"READ\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/PointAngleDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/PointAngleDTO.swift",
       "kind": "FloatLiteral",
       "offset": 199,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/PointAngleDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/PointAngleDTO.swift",
       "kind": "FloatLiteral",
       "offset": 332,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
       "kind": "FloatLiteral",
       "offset": 171,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
       "kind": "FloatLiteral",
       "offset": 241,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
       "kind": "FloatLiteral",
       "offset": 335,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
       "kind": "FloatLiteral",
       "offset": 356,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 191,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 390,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 411,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
       "kind": "IntegerLiteral",
       "offset": 432,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 271,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 5,
       "value": "\"TAG\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 6,
       "value": "\"PUSH\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 8,
       "value": "\"IGNORE\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 10,
       "value": "\"PRIORITY\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 191,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 7,
       "value": "\"SLEEP\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 12,
       "value": "\"CONFIG_UWB\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 20,
       "value": "\"CONFIG_UWB_CHANNEL\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 395,
       "length": 15,
       "value": "\"CONFIG_BEACON\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 15,
       "value": "\"ACCELEROMETER\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 10,
       "value": "\"EPD_PAGE\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
       "kind": "StringLiteral",
       "offset": 597,
       "length": 11,
       "value": "\"EPD_STYLE\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 215,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 533,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
       "kind": "StringLiteral",
       "offset": 584,
       "length": 29,
       "value": "\"kr.co.geoplan.mioc.executor\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
       "kind": "IntegerLiteral",
       "offset": 672,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
       "kind": "IntegerLiteral",
       "offset": 724,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 5993,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/EventManager.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/EventManager.swift",
       "kind": "Dictionary",
       "offset": 216,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
       "kind": "Array",
       "offset": 372,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
       "kind": "Dictionary",
       "offset": 435,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
       "kind": "Dictionary",
       "offset": 484,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
       "kind": "StringLiteral",
       "offset": 590,
       "length": 36,
       "value": "\"kr.co.geoplan.mioc.inoutArea.timer\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
       "kind": "IntegerLiteral",
       "offset": 660,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/WallManager.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/WallManager.swift",
       "kind": "Array",
       "offset": 179,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/WallManager.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/WallManager.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 31,
       "value": "\"kr.co.geoplan.mioc.wall.timer\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
       "kind": "Dictionary",
       "offset": 212,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
       "kind": "IntegerLiteral",
       "offset": 282,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
       "kind": "FloatLiteral",
       "offset": 317,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/MainTrackingService.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/MainTrackingService.swift",
       "kind": "BooleanLiteral",
       "offset": 340,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/TrackingObjectService.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/TrackingObjectService.swift",
       "kind": "Dictionary",
       "offset": 186,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 206,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 239,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 297,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
       "kind": "FloatLiteral",
       "offset": 324,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 354,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 206,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 271,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
       "kind": "FloatLiteral",
       "offset": 298,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/quuppa\/CRC8.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/quuppa\/CRC8.swift",
       "kind": "IntegerLiteral",
       "offset": 202,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/quuppa\/QuuppaTag.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/quuppa\/QuuppaTag.swift",
       "kind": "StringLiteral",
       "offset": 334,
       "length": 26,
       "value": "\"com.quuppa.quuppaTagDemo\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/store\/STORE.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/store\/STORE.swift",
       "kind": "IntegerLiteral",
       "offset": 130,
       "length": 4,
       "value": "9443"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/store\/STORE.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/store\/STORE.swift",
       "kind": "StringLiteral",
-      "offset": 172,
+      "offset": 384,
       "length": 14,
       "value": "\"cns-link.net\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/uwb\/DlTdoaSession.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/uwb\/DlTdoaSession.swift",
       "kind": "BooleanLiteral",
       "offset": 1201,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/uwb\/DlTdoaSettingsParser.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/uwb\/DlTdoaSettingsParser.swift",
       "kind": "IntegerLiteral",
       "offset": 5993,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/uwb\/DlTdoaSettingsParser.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/uwb\/DlTdoaSettingsParser.swift",
       "kind": "FloatLiteral",
       "offset": 6300,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 13,
       "value": "\"api\/auth\/%@\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 16,
       "value": "\"STX-AUTH-TOKEN\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 90,
       "value": "\"TtIrSk0vmLOx6qG186klH2PGM\/OIcQ8TFaq+i67udp9vWvkAT8Ldi1rp2Z0DLw0uRDYozqu2H0Leu4Vc5YdZjg==\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
       "kind": "StringLiteral",
       "offset": 481,
       "length": 33,
       "value": "\"ws-conn?token=%@&uuid=%@&os=ios\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/EdgeWebSocket.swift",
       "kind": "BooleanLiteral",
       "offset": 693,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/WebSocketConnector.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/WebSocketConnector.swift",
       "kind": "IntegerLiteral",
       "offset": 387,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/WebSocketConnector.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/websocket\/WebSocketConnector.swift",
       "kind": "BooleanLiteral",
       "offset": 417,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/data\/AisleBleInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/data\/AisleBleInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 158,
       "length": 6,
       "value": "0b1000"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/data\/AisleBleInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/data\/AisleBleInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 6,
       "value": "0b0010"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/data\/AisleBleInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/data\/AisleBleInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 6,
       "value": "0b0000"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/data\/AisleBleInfo.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/data\/AisleBleInfo.swift",
       "kind": "Dictionary",
       "offset": 458,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "Array",
       "offset": 220,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "Array",
       "offset": 327,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "Dictionary",
       "offset": 384,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "Dictionary",
       "offset": 445,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 484,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 521,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 28,
       "value": "\"AisleBleScanner.sync.queue\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "FloatLiteral",
       "offset": 763,
       "length": 5,
       "value": "120.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ble\/AisleBleScanner.swift",
       "kind": "FloatLiteral",
       "offset": 805,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "IntegerLiteral",
       "offset": 744,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "StringLiteral",
       "offset": 788,
       "length": 17,
       "value": "\"ABCDEF123456780\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "FloatLiteral",
       "offset": 844,
       "length": 3,
       "value": "1.4"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "BooleanLiteral",
       "offset": 1253,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "Array",
       "offset": 1357,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "Array",
       "offset": 1403,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
       "kind": "BooleanLiteral",
       "offset": 689,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
       "kind": "BooleanLiteral",
       "offset": 721,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
       "kind": "BooleanLiteral",
       "offset": 754,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
       "kind": "IntegerLiteral",
       "offset": 840,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/Zone.swift",
       "kind": "IntegerLiteral",
       "offset": 857,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 202,
       "length": 4,
       "value": "5000"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "IntegerLiteral",
       "offset": 300,
       "length": 6,
       "value": "0x6174"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "Array",
       "offset": 364,
       "length": 30,
       "value": "[0x70, 0x66, 0x72, 0x65, 0x65]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "Array",
       "offset": 455,
       "length": 30,
       "value": "[0xFF, 0xFF, 0xFF, 0xFF, 0xFF]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "StringLiteral",
       "offset": 551,
       "length": 38,
       "value": "\"6E400001-B5A3-F393-E0A9-ABCDE1234567\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "Dictionary",
       "offset": 742,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 781,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 820,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneSettings.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneSettings.swift",
       "kind": "StringLiteral",
       "offset": 889,
       "length": 13,
       "value": "\"anchor_info\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneSettings.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneSettings.swift",
       "kind": "StringLiteral",
       "offset": 927,
       "length": 11,
       "value": "\"area_info\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneSettings.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/ZoneSettings.swift",
       "kind": "StringLiteral",
       "offset": 967,
       "length": 12,
       "value": "\"aisle_info\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Constant.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Constant.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Constant.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Constant.swift",
       "kind": "BooleanLiteral",
       "offset": 344,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Constant.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 15,
       "value": "\"10.115.76.206\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Constant.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Constant.swift",
       "kind": "BooleanLiteral",
       "offset": 831,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/EventExecutor.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/EventExecutor.swift",
       "kind": "IntegerLiteral",
       "offset": 239,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/EventExecutor.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/EventExecutor.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Version.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/internal\/Version.swift",
       "kind": "StringLiteral",
       "offset": 473,
       "length": 7,
-      "value": "\"2.0.0\""
+      "value": "\"2.0.1\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/listener\/InOutEvent.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/listener\/InOutEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 131,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/listener\/InOutEvent.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/listener\/InOutEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 147,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "IntegerLiteral",
       "offset": 271,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "IntegerLiteral",
       "offset": 830,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "IntegerLiteral",
       "offset": 847,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "Dictionary",
       "offset": 1224,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
       "offset": 1264,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
       "offset": 1359,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
       "offset": 1401,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
       "offset": 1434,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
       "offset": 1467,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "IntegerLiteral",
       "offset": 1706,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "StringLiteral",
       "offset": 1761,
       "length": 19,
       "value": "\"currentArea.timer\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/iOS\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4842,
+      "length": 14,
+      "value": "\"cns-link.net\""
     }
   ]
 }
