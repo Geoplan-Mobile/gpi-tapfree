@@ -2,6 +2,26 @@
 
 모든 주요 변경 사항은 이 파일에 기록됩니다.
 
+## [2.0.2] - 2026-06-12
+
+### Breaking
+
+- **iOS 27.0+ 에서만 DL-TDoA 동작** — iOS 27 이하 디바이스는 무조건 자동으로 BLE 측위로 동작.
+- **Location 권한 필수** — `initialize()`에서 로케이션 권한 체크 및 에러처리. 
+ 
+### Added
+
+- ** `onError()`로 전달되는 `TapfreeErrorType` 신규 코드**
+  - `LOCATION_PERMISSION_REQUIRED = 7` — Location 권한 미요청/거부/제한
+  - `BLUETOOTH_PERMISSION_REQUIRED = 8` — BT 권한 거부/제한
+  - `BT_USAGE_DESCRIPTION_MISSING = 10` — Info.plist 의 `NSBluetoothAlwaysUsageDescription` 누락
+
+### Changed
+
+- **`NSNearbyInteractionUsageDescription` Info.plist 키 불필요** — iOS 27 DL-TDoA 정책 변화로 라이브러리가 더 이상 이 키를 사전 검증하지 않음. 키가 있어도 무방.
+- **dltdoa entitlement 폐지** — Apple Developer Portal 의 `Nearby Interaction DL-TDoA (development)` capability 와 앱 `.entitlements` 항목 불필요.
+
+
 ## [2.0.1] - 2026-06-10
 
 ### Added
