@@ -249,4 +249,10 @@ public enum TapfreeError: Error {
 | `7` | `LOCATION_PERMISSION_REQUIRED` | Location 권한 미요청/거부/제한. 앱이 `CLLocationManager.requestWhenInUseAuthorization()` (또는 Always) 호출하고 사용자 응답까지 받은 뒤 `initialize()` 호출해야 함 |
 | `8` | `BLUETOOTH_PERMISSION_REQUIRED` | Bluetooth 권한 거부/제한 |
 | `10` | `BT_USAGE_DESCRIPTION_MISSING` | Info.plist 에 `NSBluetoothAlwaysUsageDescription` 키 누락 (빌드 단계 결함) |
+| `11` | `SESSION_TAKEN_OVER` | 같은 `mobileId` 로 다른 디바이스/인스턴스가 Edge 에 새로 접속해 현 세션이 중복 종료된 경우. 라이브러리는 **자동 재시도 없이 즉시 `stop()`** 후 이 코드를 통지. 재개는 호출 측 `start()` 책임 |
+
+> ⚠️ **`mobileId` 중복 정책 (중요)**
+> - **`mobileId` 중복은 매우 치명적인 오류**로 간주하여, 감지 즉시 라이브러리가 **무조건 `stop()`** 한다 (자동 재시도 없음).
+> - **최신 연결이 우선시** — 새로 접속한 클라이언트가 세션을 가져가고, **기존에 연결되어 있던 클라이언트가 `stop()`** 된다.
+> - 따라서 호출 측은 **`mobileId` 가 디바이스/인스턴스 간 중복되지 않도록 반드시 유의**해야 한다.
 

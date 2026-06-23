@@ -10,7 +10,7 @@
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		QK/EGTip7EWaxSgMNagjf2CyDtU=
+		1R/RxQ7yrG0YAdRo3x7REnbDrd4=
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1x0xOptM4crjmCyLnaJ7QlKOiYk=
+		3RzVyfKewM8BjVlAk+3NZ9aG08c=
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QK/EGTip7EWaxSgMNagjf2CyDtU=
+		1R/RxQ7yrG0YAdRo3x7REnbDrd4=
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ropdxdsocnUKpZ3O56V60fg05F4=
+		OlRsmYN1O8rqzn2cPMbPK+ndUCI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKidWTERc5Ui99FjghRPULDrO8U//XjAI0yPIsJ7abw=
+			6gvnNc/eTnYZt+fhjx9vZyUT6iL04xwWZFJvd+sm8N4=
 			</data>
 		</dict>
 		<key>Modules/gpi_tapfree.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LTfoW+l5X0D5siGyEQjSTqy5VKn0ZcFmI3lORMcUf4Q=
+			PmZLk+Quz3P1nK09X8rt4y4Nlzr4kzqARdtBHmVRL6M=
 			</data>
 		</dict>
 		<key>Modules/gpi_tapfree.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKidWTERc5Ui99FjghRPULDrO8U//XjAI0yPIsJ7abw=
+			6gvnNc/eTnYZt+fhjx9vZyUT6iL04xwWZFJvd+sm8N4=
 			</data>
 		</dict>
 		<key>Modules/gpi_tapfree.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XPek8ksBcsri15eTgLjsmoYBO2ijFlQcgE1dOB94HX4=
+			1R0IzaD/IuJAC4ytzSeAK3OUkayvgiSFYnkRyOQKKI4=
 			</data>
 		</dict>
 	</dict>

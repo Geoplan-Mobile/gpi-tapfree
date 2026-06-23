@@ -4510,6 +4510,13 @@
       "value": "10"
     },
     {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/TapfreeErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1974,
+      "length": 2,
+      "value": "11"
+    },
+    {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Version.swift",
       "kind": "StringLiteral",
       "offset": 473,
