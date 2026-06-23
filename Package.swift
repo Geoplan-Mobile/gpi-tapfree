@@ -24,7 +24,7 @@ let package = Package(
         // DL-TDoA UWB 측위 엔진 (사내 binary SPM).
         .package(
             url: "https://github.com/Geoplan-Mobile/gpi-dltdoa.git",
-            from: "1.1.1"
+            from: "2.0.0"
         ),
         // 영역 in/out 판정용 geometry.
         .package(
