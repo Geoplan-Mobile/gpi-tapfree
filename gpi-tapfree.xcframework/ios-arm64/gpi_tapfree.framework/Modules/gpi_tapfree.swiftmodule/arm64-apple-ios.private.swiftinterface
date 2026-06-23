@@ -31,6 +31,11 @@ public enum InOutEvent : Swift::UInt8 {
     get
   }
 }
+extension gpi_tapfree::InOutEvent : Swift::CustomStringConvertible {
+  public var description: Swift::String {
+    get
+  }
+}
 public protocol PlatformListener {
   func onInitialized(isSuccess: Swift::Bool)
   func onUninitialized()
@@ -50,6 +55,11 @@ public enum TapfreeError : Swift::Error {
 }
 extension gpi_tapfree::TapfreeError : Foundation::LocalizedError {
   public var errorDescription: Swift::String? {
+    get
+  }
+}
+extension gpi_tapfree::TapfreeError : Swift::CustomStringConvertible {
+  public var description: Swift::String {
     get
   }
 }

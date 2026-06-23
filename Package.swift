@@ -21,10 +21,11 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // DL-TDoA UWB 측위 엔진 (사내 binary SPM).
+        // DL-TDoA UWB 측위 엔진 (사내 binary SPM). binary 의 transitive 의존이라 minor 자동
+        // 상승도 위험 → exact 로 고정. 갱신 시 본 매니페스트와 함께 신규 release 태그를 발급한다.
         .package(
             url: "https://github.com/Geoplan-Mobile/gpi-dltdoa.git",
-            from: "2.0.0"
+            exact: "2.0.0"
         ),
         // 영역 in/out 판정용 geometry.
         .package(
