@@ -238,18 +238,18 @@ public enum TapfreeError: Error {
 - **`initialize` 중 발생** — `onError` 와 함께 **`onInitialized(isSuccess: false)`** 가 호출된다.
 - **`start` 이후 (payload 연결 중 포함) 발생** — 모든 연결 및 동작이 중지되고 **`onStopped()`** 가 호출된다.
 
-| 코드 | 의미 | 발생 시점 |
-|---:|---|---|
-| `1` | `LOST_DATA_NETWORK` | start 이후 셀룰러/데이터 네트워크가 끊긴 경우 (런타임) |
-| `2` | `FAIL_INITIALIZE` | initialize 단계의 WebSocket 연결 실패 (현재는 3초 timeout 만 트리거). msg 에 사유 문자열 포함 (예: `"fail initialize (WebSocket connect): timeout"`) |
-| `3` | `FAIL_START_SCAN` | ZoneScanner BLE 스캔 시작 실패. msg 에 OS 가 돌려준 errorCode 포함 |
-| `4` | `BLUETOOTH_OFF` | 시스템에서 Bluetooth 가 OFF 상태이거나 `.resetting` / `.unsupported` 로 사용 불가 (권한 거부는 별개 — 코드 8) |
-| `5` | `GPS_OFF` | 시스템 Location Services 가 OFF 상태이거나 권한이 거부/제한된 상태 |
-| `6` | `DL_TDOA_ERROR` | DL-TDoA(UWB) 세션 오류 (iOS 전용 — Android 에는 대응 코드 없음) |
-| `7` | `LOCATION_PERMISSION_REQUIRED` | Location 권한 미요청/거부/제한. 앱이 `CLLocationManager.requestWhenInUseAuthorization()` (또는 Always) 호출하고 사용자 응답까지 받은 뒤 `initialize()` 호출해야 함 |
-| `8` | `BLUETOOTH_PERMISSION_REQUIRED` | Bluetooth 권한 거부/제한 |
-| `10` | `BT_USAGE_DESCRIPTION_MISSING` | Info.plist 에 `NSBluetoothAlwaysUsageDescription` 키 누락 (빌드 단계 결함) |
-| `11` | `SESSION_TAKEN_OVER` | 같은 `mobileId` 로 다른 디바이스/인스턴스가 Edge 에 새로 접속해 현 세션이 중복 종료된 경우. 라이브러리는 **자동 재시도 없이 즉시 `stop()`** 후 이 코드를 통지. 재개는 호출 측 `start()` 책임 |
+| 코드 | 의미 | 발생 시점 | 함께 호출되는 콜백 |
+|---:|---|---|---|
+| `1` | `LOST_DATA_NETWORK` | `start 이후` 셀룰러/데이터 네트워크가 끊긴 경우 | `onStopped()` |
+| `2` | `FAIL_INITIALIZE` | `initialize 단계` 에서 네트워크 인터페이스 초기화 실패 | `onInitialized(isSuccess: false)` |
+| `3` | `FAIL_START_SCAN` | `start 이후` 내부 BLE 스캔 시작 실패 | `onStopped()` |
+| `4` | `BLUETOOTH_OFF` | 시스템에서 Bluetooth 가 OFF 상태이거나 `.resetting` / `.unsupported` 로 사용 불가 (권한 거부는 별개 — 코드 8) | `initialize 단계`: `onInitialized(isSuccess: false)`. `start 이후`: `onStopped()` |
+| `5` | `GPS_OFF` | 시스템 Location Services 가 OFF 상태이거나 권한 거부/제한된 상태 | `initialize 단계`: `onInitialized(isSuccess: false)`. `start 이후`: `onStopped()` |
+| `6` | `DL_TDOA_ERROR` | `start 이후` DL-TDoA(UWB) 세션 오류 (iOS 전용 — Android 에는 대응 코드 없음) | 없음 — `onLocation` 등 후속 콜백 그대로 계속 |
+| `7` | `LOCATION_PERMISSION_REQUIRED` | `initialize 단계`, Location 권한 미요청/거부/제한 | `onInitialized(isSuccess: false)` |
+| `8` | `BLUETOOTH_PERMISSION_REQUIRED` | Bluetooth 권한 거부/제한 | `initialize 단계`: `onInitialized(isSuccess: false)`. `start 이후`: `onStopped()` |
+| `10` | `BT_USAGE_DESCRIPTION_MISSING` | `initialize 단계`, 앱 Info.plist 에 `NSBluetoothAlwaysUsageDescription` 키 누락 (빌드 단계 결함) | `onInitialized(isSuccess: false)` |
+| `11` | `SESSION_TAKEN_OVER` | `start 이후`, 같은 `mobileId` 로 다른 디바이스/인스턴스가 Edge 에 새로 접속해 현 세션이 중복 종료된 경우 | `onStopped()` |
 
 > ⚠️ **`mobileId` 중복 정책 (중요)**
 > - **`mobileId` 중복은 매우 치명적인 오류**로 간주하여, 감지 즉시 라이브러리가 **무조건 `stop()`** 한다 (자동 재시도 없음). _(gpi-tapfree 2.0.3+)_
