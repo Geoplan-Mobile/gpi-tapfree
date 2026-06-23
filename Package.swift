@@ -10,7 +10,7 @@ import PackageDescription
 let package = Package(
     name: "gpi-tapfree",
     platforms: [
-        .iOS(.v15),
+        .iOS("18.0"),
     ],
     products: [
         // 두 target 을 한 라이브러리로 묶음.
