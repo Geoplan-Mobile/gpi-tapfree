@@ -2,10 +2,7 @@
 //
 // gpi-tapfree 배포 매니페스트.
 // 소스 저장소는 별도로 존재하고, 본 저장소는 미리 빌드된 gpi-tapfree.xcframework 만 배포한다.
-// 사용 앱은 본 저장소의 SPM URL 만 의존하면 transitive 로 GEOSwift 까지 자동 해결.
-//
-// gpi-dltdoa 는 Mergeable Libraries 로 본 xcframework 의 binary 에 흡수되어
-// 외부 SPM 의존으로 노출하지 않는다 (사용 앱은 gpi-dltdoa repo 접근 권한 불필요).
+// 사용 앱은 본 저장소의 SPM URL 만 의존하면 transitive 로 gpi-dltdoa, GEOSwift 까지 자동 해결.
 //
 
 import PackageDescription
@@ -24,7 +21,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // 영역 in/out 판정용 geometry. dynamic link 라 외부 의존 선언 필수.
+        // DL-TDoA UWB 측위 엔진 (사내 binary SPM). binary 의 transitive 의존이라 minor 자동
+        // 상승도 위험 → exact 로 고정. 갱신 시 본 매니페스트와 함께 신규 release 태그를 발급한다.
+        .package(
+            url: "https://github.com/Geoplan-Mobile/gpi-dltdoa.git",
+            exact: "2.0.0"
+        ),
+        // 영역 in/out 판정용 geometry.
         .package(
             url: "https://github.com/GEOSwift/GEOSwift.git",
             from: "11.2.0"
@@ -42,6 +45,7 @@ let package = Package(
         .target(
             name: "gpi-tapfree-deps",
             dependencies: [
+                .product(name: "gpi-dltdoa", package: "gpi-dltdoa"),
                 .product(name: "GEOSwift", package: "GEOSwift"),
             ],
             path: "Sources/gpi-tapfree-deps"

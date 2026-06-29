@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		/NHQZE3CZ+SOr5HmTeOWX5k27A0=
+		WbbkxXxWDmJm6/3Xq1mHmJh3WOo=
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YZP2qtWco0TfDkqrueCAQtzFyFo=
+		BJMh8pKWl0vhS2nGFT5+hsQz9M8=
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/gpi_tapfree.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qBgErLtnUD4T5qiR3Bh69nK/uEY=
+		VL+HLXL7XW2dbxgDO7DmNTM4Bac=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p1d6mdkJ0JHAz+Y9bWkswC7Si2dRpYPef9hFvs8nZAo=
+			oeRawOLe3lfNUjPXNl8vPISTL1hsytps8EeywNMlQMs=
 			</data>
 		</dict>
 		<key>Modules/gpi_tapfree.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rUl8YZmwfcGQ6LLL3Cs+wYM6qfbOxDKsUlgQiDG2D/w=
+			3JP9t9x6/SpfO9HGz4ol+7tA7DLaRWIdGSsLc4z8aw4=
 			</data>
 		</dict>
 	</dict>
