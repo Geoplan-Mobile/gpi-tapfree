@@ -4615,13 +4615,6 @@
       "value": "11"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 7,
-      "value": "\"2.0.3\""
-    },
-    {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/listener\/InOutEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 131,
