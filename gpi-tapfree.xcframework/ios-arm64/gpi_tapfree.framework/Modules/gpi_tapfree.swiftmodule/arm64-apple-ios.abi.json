@@ -156,478 +156,13 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "gpi_logger",
+        "printedName": "gpi_logger",
         "declKind": "Import",
         "moduleName": "gpi_tapfree",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree"
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GEOSwift",
-        "printedName": "GEOSwift",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "gpi_tapfree"
       },
       {
         "kind": "Import",
@@ -730,6 +265,13 @@
       },
       {
         "kind": "Import",
+        "name": "gpi_prm",
+        "printedName": "gpi_prm",
+        "declKind": "Import",
+        "moduleName": "gpi_tapfree"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -850,6 +392,13 @@
         "kind": "Import",
         "name": "simd",
         "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "gpi_tapfree"
+      },
+      {
+        "kind": "Import",
+        "name": "gpi_prm",
+        "printedName": "gpi_prm",
         "declKind": "Import",
         "moduleName": "gpi_tapfree"
       },
@@ -3292,858 +2841,25 @@
       "value": "24"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 528,
+      "offset": 428,
       "length": 13,
       "value": "\"gpi-tapfree\""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
-      "kind": "Dictionary",
-      "offset": 584,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 683,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Console.swift",
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 1639,
+      "offset": 713,
       "length": 4,
       "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 355,
-      "length": 13,
-      "value": "\"gpi-tapfree\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 12,
-      "value": "\"FileLogger\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 822,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 848,
-      "length": 13,
-      "value": "\"gpi-tapfree\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/log\/FileLogger.swift",
-      "kind": "BooleanLiteral",
-      "offset": 914,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 192,
-      "length": 33,
-      "value": "\"kr.co.geoplan.mobile.mioc.prefs\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 275,
-      "length": 9,
-      "value": "\".ioc.ip\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 331,
-      "length": 11,
-      "value": "\".ioc.port\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 391,
-      "length": 13,
-      "value": "\".project.id\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 11,
-      "value": "\".space.id\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 507,
-      "length": 6,
-      "value": "\".key\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 560,
-      "length": 11,
-      "value": "\".udp_port\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 628,
-      "length": 21,
-      "value": "\".first.position.use\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/AppProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 706,
-      "length": 21,
-      "value": "\".first.position.cnt\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 136,
-      "length": 31,
-      "value": "\"https:\/\/192.168.0.13:7081\/ioc\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 914,
-      "length": 9,
-      "value": "\"geoplan\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 953,
-      "length": 7,
-      "value": "\"4.0.0\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1049,
-      "length": 9,
-      "value": "\"IOC_KEY\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/common\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1120,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 945,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1013,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 1087,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1159,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 1240,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1530,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "Array",
-      "offset": 1894,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "Dictionary",
-      "offset": 1989,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "Dictionary",
-      "offset": 2113,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "Array",
-      "offset": 2163,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/InoutAreaDTO.swift",
-      "kind": "Array",
-      "offset": 2208,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 461,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 524,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/data\/WallDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 592,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 294,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 318,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 342,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 370,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "BooleanLiteral",
-      "offset": 400,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 433,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 463,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 564,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 588,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/GuideLineObjectDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 610,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 452,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 512,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 577,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 659,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 692,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGeometryDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 800,
-      "length": 6,
-      "value": "\"READ\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 413,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 488,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 568,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 652,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
-      "kind": "BooleanLiteral",
-      "offset": 783,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/InoutGuideLineDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 1209,
-      "length": 6,
-      "value": "\"READ\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/PointAngleDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 199,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/PointAngleDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 332,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 171,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 241,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 335,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/SegmentInfoDTO.swift",
-      "kind": "FloatLiteral",
-      "offset": 356,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 191,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 219,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 247,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 390,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 411,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/dto\/TagInfoDTO.swift",
-      "kind": "IntegerLiteral",
-      "offset": 432,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 247,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 271,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ExternalTypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 293,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 181,
-      "length": 5,
-      "value": "\"TAG\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 203,
-      "length": 6,
-      "value": "\"PUSH\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 228,
-      "length": 8,
-      "value": "\"IGNORE\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/InoutTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 257,
-      "length": 10,
-      "value": "\"PRIORITY\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 191,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 208,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 225,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/ProtocolTypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 251,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 211,
-      "length": 7,
-      "value": "\"SLEEP\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 12,
-      "value": "\"CONFIG_UWB\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 324,
-      "length": 20,
-      "value": "\"CONFIG_UWB_CHANNEL\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 395,
-      "length": 15,
-      "value": "\"CONFIG_BEACON\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 474,
-      "length": 15,
-      "value": "\"ACCELEROMETER\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 537,
-      "length": 10,
-      "value": "\"EPD_PAGE\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TagCommandTypeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 597,
-      "length": 11,
-      "value": "\"EPD_STYLE\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 175,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 195,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/enums\/TypeEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 215,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 533,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 584,
-      "length": 29,
-      "value": "\"kr.co.geoplan.mioc.executor\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 672,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 724,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/impl\/MIocImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5993,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/EventManager.swift",
-      "kind": "Dictionary",
-      "offset": 216,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
-      "kind": "Array",
-      "offset": 372,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
-      "kind": "Dictionary",
-      "offset": 435,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
-      "kind": "Dictionary",
-      "offset": 484,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
-      "kind": "StringLiteral",
-      "offset": 590,
-      "length": 36,
-      "value": "\"kr.co.geoplan.mioc.inoutArea.timer\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/InoutAreaManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 660,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/WallManager.swift",
-      "kind": "Array",
-      "offset": 179,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/manager\/WallManager.swift",
-      "kind": "StringLiteral",
-      "offset": 281,
-      "length": 31,
-      "value": "\"kr.co.geoplan.mioc.wall.timer\""
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
-      "kind": "Dictionary",
-      "offset": 212,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 247,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 282,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/CheckInAreaService.swift",
-      "kind": "FloatLiteral",
-      "offset": 317,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/MainTrackingService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 340,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/tracking\/TrackingObjectService.swift",
-      "kind": "Dictionary",
-      "offset": 186,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 206,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 239,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 270,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 297,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
-      "kind": "FloatLiteral",
-      "offset": 324,
-      "length": 3,
-      "value": "3.0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/AreaInfo.swift",
-      "kind": "BooleanLiteral",
-      "offset": 354,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 206,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 271,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/prm\/WallInfo.swift",
-      "kind": "FloatLiteral",
-      "offset": 298,
-      "length": 3,
-      "value": "2.0"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/quuppa\/CRC8.swift",
@@ -4183,14 +2899,14 @@
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/uwb\/DlTdoaSettingsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5991,
+      "offset": 6060,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/uwb\/DlTdoaSettingsParser.swift",
       "kind": "FloatLiteral",
-      "offset": 6298,
+      "offset": 6367,
       "length": 3,
       "value": "0.0"
     },
@@ -4337,42 +3053,42 @@
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "IntegerLiteral",
-      "offset": 744,
+      "offset": 820,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 864,
       "length": 17,
       "value": "\"ABCDEF123456780\""
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "FloatLiteral",
-      "offset": 844,
+      "offset": 920,
       "length": 3,
       "value": "1.4"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "BooleanLiteral",
-      "offset": 1253,
+      "offset": 1327,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "Array",
-      "offset": 1357,
+      "offset": 1431,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/zone\/UwbZone.swift",
       "kind": "Array",
-      "offset": 1403,
+      "offset": 1477,
       "length": 2,
       "value": "[]"
     },
@@ -4615,13 +3331,6 @@
       "value": "11"
     },
     {
-      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/internal\/Version.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 7,
-      "value": "\"2.0.4\""
-    },
-    {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/listener\/InOutEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 131,
@@ -4666,63 +3375,63 @@
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "Dictionary",
-      "offset": 1224,
+      "offset": 1524,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
-      "offset": 1264,
+      "offset": 1564,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
-      "offset": 1359,
+      "offset": 1659,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
-      "offset": 1401,
+      "offset": 1701,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
-      "offset": 1434,
+      "offset": 1734,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "BooleanLiteral",
-      "offset": 1467,
+      "offset": 1767,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "IntegerLiteral",
-      "offset": 1706,
+      "offset": 2006,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "StringLiteral",
-      "offset": 1761,
+      "offset": 2061,
       "length": 19,
       "value": "\"currentArea.timer\""
     },
     {
       "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/straffic\/tapfree\/gpi-tapfree\/gpi-tapfree\/TapfreePlatform.swift",
       "kind": "StringLiteral",
-      "offset": 11018,
+      "offset": 11510,
       "length": 14,
       "value": "\"cns-link.net\""
     }
