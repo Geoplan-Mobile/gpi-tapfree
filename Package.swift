@@ -27,10 +27,11 @@ let package = Package(
             url: "https://github.com/Geoplan-Mobile/gpi-dltdoa.git",
             exact: "2.0.0"
         ),
-        // 영역 in/out 판정용 geometry.
+        // 영역 in/out 판정용 PRM 엔진 (사내 binary SPM). wrapper carrier 가 GEOSwift 를 전파하므로
+        // GEOSwift 는 여기에 직접 선언하지 않는다.
         .package(
-            url: "https://github.com/GEOSwift/GEOSwift.git",
-            from: "11.2.0"
+            url: "https://github.com/Geoplan-Mobile/gpi-prm.git",
+            exact: "1.1.0"
         ),
     ],
     targets: [
@@ -46,7 +47,7 @@ let package = Package(
             name: "gpi-tapfree-deps",
             dependencies: [
                 .product(name: "gpi-dltdoa", package: "gpi-dltdoa"),
-                .product(name: "GEOSwift", package: "GEOSwift"),
+                .product(name: "gpi-prm", package: "gpi-prm"),
             ],
             path: "Sources/gpi-tapfree-deps"
         ),
