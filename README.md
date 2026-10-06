@@ -4,6 +4,8 @@
 사전 컴파일(Pre-compiled)된 `XCFramework` 형태의 바이너리를 SPM(Swift Package Manager) 포맷으로 독립 제공한다.
 iOS 실기기(arm64) 및 시뮬레이터(arm64, x86_64) 빌드를 모두 지원하며, `gpi-tapfree.xcframework` 디렉토리 내부의 `VERSION_X.X.X` 파일을 통해 배포 버전을 확인할 수 있다.
 
+> 동일한 기능의 Android 라이브러리(`gpa-tapfree`) 문서는 [gpa-tapfree/README.md](gpa-tapfree/README.md) 를 참고한다.
+
 > **💡 엔진 코어 역량 요약**
 > Edge 서버와 **WebSocket + 자체 Straffic 바이너리 프로토콜** 로 통신하며, BLE Zone 스캔 / 영역 in-out 측위 / Payload 게이트 송수신을 통합한 Tap-Free 클라이언트.
 > 내부적으로 `gpi-dltdoa` (UWB DL-TDoA) 및 `GEOSwift` (영역 in/out geometry) 를 transitive 의존성으로 자동 로드한다.
